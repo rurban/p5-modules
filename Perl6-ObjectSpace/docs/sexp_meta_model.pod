@@ -1,4 +1,3 @@
-
 =pod
 
 =head1 Utility Functions
@@ -99,7 +98,7 @@
   (method (::Class class) ((opaque $self:)) returns opaque 
       ($self: class))
       
-==head2 Superclasses & Subclasses
+=head2 Superclasses & Subclasses
   
   (method (::Class superclasses) ((opaque $self) (list ?@superclasses)) returns list 
       ((?@superclasses is_nil) or 

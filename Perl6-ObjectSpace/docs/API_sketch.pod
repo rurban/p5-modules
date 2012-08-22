@@ -1,3 +1,4 @@
+=pod
 
 # possible syntax for Signature DSL
 my $Bit = new signature q|
@@ -112,3 +113,5 @@ sub module::native::wrap {
         }
     );
 }
+
+=cut
